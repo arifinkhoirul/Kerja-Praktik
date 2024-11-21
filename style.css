@@ -1,0 +1,227 @@
+<style>
+hr {
+
+    color: purple;
+    line-height: normal;
+}
+
+.purple {
+    background-color: #6D2D8A;
+}
+
+.purple-btn {
+    background-color: #6D2D8A;
+}
+
+:hover.purple-btn {
+    background-color: rgb(69, 5, 69);
+}
+
+.border-irul {
+    border-color: #6D2D8A;
+    border-width: 2px;
+}
+
+.warna-psi {
+    color: #6D2D8A;
+}
+
+.bg-footer {
+    background-color: #e3e3e3;
+}
+
+.jarak-logo-footer {
+    margin-left: 40%;
+}
+
+/* ----------------------------------------- */
+
+.ping-bullet {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
+
+
+.posisi-readmore-sharing {
+    padding-top: 90px;
+}
+
+.posisi-readmore-kegiatan-pkkmb {
+    padding-top: 65px;
+}
+
+.marquee-container {
+    overflow: hidden;
+    position: relative;
+    color: #fff;
+    white-space: nowrap;
+
+}
+
+.marquee-text {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 80s linear infinite;
+    padding-top: 5px;
+
+
+}
+
+.marquee-container:hover .marquee-text {
+    animation-play-state: paused;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(10%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-content {
+    display: inline-block;
+}
+
+.flash {
+    font-size: 18px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+.berita {
+    font-size: 15px;
+    color: rgb(57, 57, 57);
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ungu {
+    background-color: #6D2D8A;
+}
+
+.background-flash {
+    background-color: #6D2D8A;
+    height: 40px;
+    padding-left: 5px;
+    padding-top: 6px;
+}
+
+.background-berita {
+
+    background-color: #e3e3e3;
+    height: 45px;
+
+}
+
+.flashing-circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(131, 29, 29);
+    border-radius: 50%;
+    display: inline-block;
+    animation: flash 1s infinite;
+
+}
+
+a:hover {
+    color: #6D2D8A;
+    text-decoration: none;
+}
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.kotak {
+    width: 69px;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(57, 57, 57);
+    margin-left: 50px
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .latar-berita {
+        background-color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .berita {
+        font-size: 40px;
+    }
+
+    .link {
+        text-decoration: none;
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+
+
+    .flash {
+        padding-top: 10px;
+        font-size: 12px;
+        color: white;
+        text-align: none;
+    }
+
+    .berita {
+        font-size: 10px;
+        color: rgb(57, 57, 57);
+    }
+
+    .background-flash {
+        background-color: #6D2D8A;
+        height: 35px;
+    }
+}
+</style>
